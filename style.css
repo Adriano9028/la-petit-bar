@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;;
+}
+/* menu */
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+}
+header .menu-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1300px;
+    margin-top: 80px;
+    
+}
+.menu-desktop nav ul{
+    display: flex;
+    list-style: none;
+}
+.menu-desktop li a {
+    color: rgb(206, 205, 205);
+    text-decoration: none;
+    font-size: 27px;
+    margin: 0 30px; 
+}
+.menu-desktop li a:hover{
+    color: white;
+}
+.menu-desktop  i{
+    cursor: pointer;
+    color: #f8ce74;
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 40px;
+  
+    margin-bottom: 20px;
+}
+.menu-desktop  i:hover{
+    color: #8d7031;
+}
+
+.imagem-fundo{
+    height: 100vh;
+    background-image: url(imagem/pexels-holoshuriken-15750741.jpg);
+    box-shadow: rgba(128, 128, 128, 0.226), rgba(128, 128, 128, 0.226),rgba(128, 128, 128, 0.226),rgba(128, 128, 128, 0.226), rgba(240, 46, 170, 0.05) 0px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.imagem-fundo >.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4d4e2367;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+/* Scroll menu Js */
+header.rolar{
+    background-color: rgba(211, 211, 211, 0.938);
+    padding: 20px 0;
+}
+header.rolar .menu-desktop nav ul li a{
+    color: black;
+}
+header.rolar .menu-desktop nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+
+
+
+/* sobre a empresa */
+section#sobre{
+    background-image: url(imagem/old-paper-texture-1920-x-1080-background-t7st9er48bzs072u.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+    color: #f8ce74;
+    position: relative;
+}
+#sobre h1{
+    position: relative;
+    z-index: 2;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    line-height: 150px;
+   
+}
+#sobre h1 span{
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Great Vibes", cursive;
+}
+#sobre h3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+    text-align: justify;
+    width: 600px;
+    margin-right: 500px;
+    margin-top: 100px;
+    line-height: 60px;
+}
+#sobre h3 p{
+    color: #f8ce74;
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+#sobre .overlay-sobre{
+    position: absolute;
+    background-color: #4d4e23a4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* musica */
+#musica{
+    width:100% ;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+.programacao {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.programacao h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+}
+.programacao h1 span{
+    color: #f8ce74;
+    font-size: 60px;
+}
+.programacao h1 i{
+    font-size: 50px;
+}
+.programacao p{
+    width: 600px;
+    text-align: justify;
+    line-height: 60px;
+    font-size: 25px;
+    
+}
+.img-horario p{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    margin-top: 200px;
+    font-weight: 500;
+    text-align: center;
+}
+.img-horario p i{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.img-horario {
+    position: relative;
+    z-index: 3; 
+    margin-right: 200px;
+}
+.img-horario img{
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: -110px;
+    width: 400px;
+    height: 500px;
+    margin-right: 100px;
+    position: relative; 
+   
+}
+
+/* horario de funcionamento */
+#funcionamento {
+    background-image: url(imagem/pexels-nati-87264186-12991628.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f8ce74;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+#funcionamento .titulo {
+    position: relative;
+    z-index: 5;
+}
+#funcionamento .titulo h1{
+    font-size: 4em;
+    font-weight: bold;
+  
+}
+#funcionamento .titulo p{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    font-size: 4em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+#funcionamento #horas h2{
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-size: 40px;
+}
+#horas h2 i{
+    color: #f8ce74;
+    margin-right: 50px;
+    font-size: 80px;
+   
+}
+#horas h2 p{
+    font-size: 40px;
+    text-align: center;
+   
+}
+#funcionamento .overlay-funcio{
+    position: absolute;
+    background-color: #4d4e2381;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* menu cardapio */
+section#cardapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 950px;
+}
+.imagem-cardapio img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 450px; 
+    height: 380px;
+    margin-right: 600px;
+  
+}
+.imagem-cardapio .absolute img{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 300px;
+    z-index: 2;
+}
+article{
+    text-align: center;
+}
+article h1{
+    font-size: 3em;
+    font-weight: 200;
+    margin-top: -100px;
+    margin-bottom: 40px;
+    
+}
+article p{
+    width: 800px;
+    font-size: 27px;
+    font-weight: 200;
+    text-align: justify;
+}
+article button{
+    background-color: #F8CE74;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+article button:hover{
+    background-color:#caa045;
+    color: black;
+}
+
+
+/* Eventos */
+section#eventos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(imagem/pexels-cottonbro-3171815.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+   
+}
+#eventos h1{
+    color: #F8CE74;
+    font-size: 3em;
+    font-weight: 200;
+    margin-top: 50px;
+    position: relative;
+     z-index: 3;
+}
+#eventos p{
+    width: 800px;
+    font-size: 27px;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: justify;
+    position: relative;
+    z-index: 3;
+}
+#eventos .overlay-eventos{
+    background-color: #4d4e2381;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 1;
+}
+#eventos button{
+    background-color: #F8CE74;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+} 
+#eventos button:hover{
+    background-color:#caa045 ;
+}
+/* logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+section.logo img{
+    cursor: pointer;
+    width: 120px;
+    margin-top: 20px;
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+}
+section.logo img:hover{
+    transform: scale(1.1);
+}
+
+/* Bem vindo */
+.bem-vindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+.bem-vindo img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 700px;
+    margin-top: 150px;
+}
+.bem-vindo .vinho-branco{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -400px;
+}
+.bem-vindo p{
+    font-family: "Great Vibes", cursive;
+    font-size: 4em;
+    margin-top: 200px;
+}
+/* rodapé */
+footer {
+    background-color: #4d4e23;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    color: white;
+}
+.local{
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.local h1{
+     font-family: "Great Vibes", cursive;
+     font-size: 4em;
+     font-weight: 100;
+}
+.local p{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.local p i{
+    color: #f8ce74;
+    font-size: 35px;
+    padding-right: 20px;
+}
+footer h2{
+    color: #f8ce74;
+    text-align: center;
+    margin-top: 130px;
+     font-size: 4em;
+    font-weight: 300;
+    font-family: "Great Vibes", cursive;
+}

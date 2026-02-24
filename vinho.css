@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;;
+
+}
+body{
+    background-color: rgba(211, 211, 211, 0.178);
+}
+/* menu */
+header{
+    background-color: #2c3e50;
+     border: 2px solid black;
+     height: 120px;
+     width: 50%;
+     margin: 0 auto;
+}
+header #logotipo h1{
+    cursor: pointer;
+    color: #F8CE74;
+    font-family: "Great Vibes", cursive;;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 30px;    
+}
+header #logotipo a{
+    text-decoration: none;
+}
+/* cartaz */
+section.cartaz{
+    background-image:url(imagem/pexels-tejanotechie-35554387.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.151);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+/* nome */
+.nome h1{
+   margin-left: 650px;
+   margin-top: 20px;
+   text-decoration: underline;
+}
+/* Opção do menu */
+.opcao{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    margin-left: 650px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ;
+}
+.opcao .conteudo{
+    background-image:url(imagem/pexels-enginakyurt-1437267.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    border-radius: 20px;
+}
+.conteudo h1{
+    font-size: 24px;
+    padding-top: 50px;
+    color: white;
+}
+.conteudo a{
+    text-decoration: none;
+   
+}
+.opcao .conteudo01{
+    background-image: url(imagem/pexels-burst-545058.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+     border-radius: 20px;
+     margin: 0 40px;
+}
+.conteudo01 h1{
+    font-size: 24px;
+    padding-top: 50px;
+    color: white;
+   
+}
+.conteudo01 a{
+    text-decoration: none;
+}
+.opcao .conteudo02{
+    background-image: url(imagem/pexels-nati-87264186-12991628.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+     border-radius: 20px;
+}
+.conteudo02 h1{
+    font-size: 24px;
+    padding-top: 50px;
+    color: white; 
+}
+.conteudo02 a{
+    text-decoration: none;
+}
+.opcao .conteudo:hover{
+    opacity: 0.7;
+}
+.opcao .conteudo01:hover{
+    opacity: 0.7;
+}
+.opcao .conteudo02:hover{
+    opacity: 0.7;
+}
+
+/* sub menu */
+.sub-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+.sub-menu nav ul {
+    display:flex;
+    list-style: none;
+    margin-left: 650px;
+}
+.sub-menu li{
+    background-color: #2c3e50;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 5px;
+}
+.sub-menu li a{
+    color: #F8CE74;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.sub-menu li:hover{
+    background-color: #2c3e50a8;
+}
+.sub-menu li a:hover{
+    color: black;
+}
+
+/* Drinks */
+#vinho-tinto{
+    cursor: pointer;
+    margin-left: 650px;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+}
+#vinho-tinto h1{
+    color: #F8CE74;
+    margin: 20px 0;
+    padding-left: 20px;
+   background-color: #2c3e50;
+}
+#vinho-branco{
+    cursor: pointer;
+    margin-left: 650px;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+    margin-top: 200px;
+}
+#vinho-branco h1{
+    color: #F8CE74;
+    padding-left: 20px;
+    margin: 20px 0;
+    background-color: #2c3e50;
+}
+#espumantes{
+    cursor: pointer;
+    margin-left: 650px;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+    margin-top: -50px;
+
+    
+}
+#espumantes h1{
+    color: #F8CE74;
+    padding-left: 20px;
+    margin: 20px 0;
+    background-color: #2c3e50;
+}
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /
+}
+
+.item {
+  display: flex;
+  align-items: center; 
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item img {
+  width: 150px; 
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.detalhes {
+  flex: 1; 
+}
+
+.preco {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-left: 10px;
+}
+.item img:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}

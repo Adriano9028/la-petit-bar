@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* menu-wpp */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 50px; 
+    
+}
+header .logo-wpp a{
+    color:  #01E675;
+    font-size: 2.5em;
+    margin-left: 100px;
+    text-decoration: none;
+}
+header .logo-wpp a i{
+    padding-right: 10px;
+}
+header .menu-wpp nav ul{
+    font-size: 27px;
+    display: flex;
+    list-style: none;
+}
+.menu-wpp  li {
+margin-right: 60px;
+}
+.menu-wpp  li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.menu-wpp  li a:hover{
+    transform: scale(1.1);
+}
+header .btn-wpp button {
+    color:black;
+    background-color: #01E675;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.btn-wpp button i{
+    font-size: 23px;
+    padding-left: 10px;
+}
+.btn-wpp button a{
+    color: white;
+    text-decoration: none;
+}
+.btn-wpp button:hover{
+    background-color:black;
+    color: white;
+}
+/* Conversar */
+main{
+    width: 100%;
+    height: 800px;
+}
+.logotipo{
+    background-color: #2c3e50;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.logotipo h1{
+    font-family: "Great Vibes", cursive;;
+    color: #F8CE74;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    
+}
+.logotipo p span{
+    font-size: 24px;
+}
+.conversar{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.conversar h1 button{
+    cursor: pointer;
+    background-color: #01E675;
+    color: white;
+    font-size: 24px;
+    margin-top: 120px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;  
+}
+.conversar h1 button:hover{
+    background-color: #01e67356;
+    color: black;
+}
+.logotipo h1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size:25px;
+    width: 500px;
+    margin-top: 150px;
+    line-height: 40px;
+    
+}
+
+/* rodapé */
+footer{
+    background-color: #111B21;
+    width: 100%;
+    height: 700px;
+}
+.rodape-wpp{
+    margin-left: 500px;
+    padding-top: 150px;
+    width: 300px;
+    height: 500px;
+}
+.rodape-wpp a{
+    text-decoration: none;
+    font-size: 3em;
+   
+    color: white;
+}
+.rodape-wpp .baixar button{
+    background-color: #01E675;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 150px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 30px;
+}
+.rodape-wpp .baixar button i{
+    padding-left: 15px;
+}
+.rodape-wpp .baixar button:hover{
+    background-color: black;
+    color: white;
+}
+aside .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 900px;
+   margin-top: -450px;
+   height: 40vh;
+   width: 50%;
+}
+.container nav ul{
+    list-style: none;
+}
+.container li h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: lightgray;
+   
+}
+.container li a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 2em;
+    font-weight: 100;
+    
+}
+.container li a:hover{
+    text-decoration: underline;
+}
+/* informações footer */
+.informacoes-footer .caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.caixa p {
+    color: white;
+    font-size: 24px;
+    margin-right: 100px;
+}
+.redes-sociais a i{
+    color: white;
+    font-size: 30px;
+    padding-right: 30px;
+}
+.redes-sociais a i:hover{
+    color: #01E675;
+}
