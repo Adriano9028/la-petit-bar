@@ -7,7 +7,6 @@
 /* menu */
 header{
     width: 100%;
-    padding: 40px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +16,7 @@ header .menu-desktop{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1300px;
+    margin-left: 1000px;
     margin-top: 80px;
     
 }
@@ -28,7 +27,7 @@ header .menu-desktop{
 .menu-desktop li a {
     color: rgb(206, 205, 205);
     text-decoration: none;
-    font-size: 27px;
+    font-size: 20px;
     margin: 0 30px; 
 }
 .menu-desktop li a:hover{
@@ -68,19 +67,18 @@ header .menu-desktop{
 }
 /* Scroll menu Js */
 header.rolar{
-    background-color: rgba(211, 211, 211, 0.938);
+    background-color: rgba(211, 211, 211, 0.753);
     padding: 20px 0;
 }
 header.rolar .menu-desktop nav ul li a{
     color: black;
 }
 header.rolar .menu-desktop nav ul li a:hover{
-    color: rgba(0, 0, 0, 0.589);
+    color: #4d4e23;
 }
 
-
-
 /* sobre a empresa */
+
 section#sobre{
     background-image: url(imagem/old-paper-texture-1920-x-1080-background-t7st9er48bzs072u.jpg);
     background-position: center;
@@ -96,12 +94,12 @@ section#sobre{
 #sobre h1{
     position: relative;
     z-index: 2;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
     margin-top: 200px;
     margin-left: 200px;
-    line-height: 150px;
+    line-height: 100px;
    
 }
 #sobre h1 span{
@@ -113,12 +111,12 @@ section#sobre{
     position: relative;
     z-index: 2;
     color: white;
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 500;
     text-align: center;
     text-align: justify;
     width: 600px;
-    margin-right: 500px;
+    margin-right: 300px;
     margin-top: 100px;
     line-height: 60px;
 }
@@ -167,13 +165,13 @@ section#sobre{
     width: 600px;
     text-align: justify;
     line-height: 60px;
-    font-size: 25px;
+    font-size: 24px;
     
 }
 .img-horario p{
     font-family: "Great Vibes", cursive;
-    font-size: 50px;
-    margin-top: 200px;
+    font-size: 40px;
+    margin-top: 300px;
     font-weight: 500;
     text-align: center;
 }
@@ -184,14 +182,14 @@ section#sobre{
 .img-horario {
     position: relative;
     z-index: 3; 
-    margin-right: 200px;
+    margin-right: 50px;
 }
 .img-horario img{
    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    margin-top: -110px;
-    width: 400px;
-    height: 500px;
-    margin-right: 100px;
+    margin-top: -150px;
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
     position: relative; 
    
 }
@@ -267,15 +265,15 @@ section#cardapio{
 .imagem-cardapio img{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
-    width: 450px; 
-    height: 380px;
-    margin-right: 600px;
+    width: 300px; 
+    height: 350px;
+    margin-right: 500px;
   
 }
 .imagem-cardapio .absolute img{
     position: absolute;
     margin-top: -200px;
-    margin-left: 300px;
+    margin-left: 250px;
     z-index: 2;
 }
 article{
@@ -290,17 +288,18 @@ article h1{
 }
 article p{
     width: 800px;
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 200;
+    margin-right: 50px;
     text-align: justify;
 }
 article button{
     background-color: #F8CE74;
     cursor: pointer;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 10px;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 article button:hover{
     background-color:#caa045;
@@ -334,7 +333,7 @@ section#eventos{
 }
 #eventos p{
     width: 800px;
-    font-size: 27px;
+    font-size: 24px;
     margin-top: 30px;
     line-height: 50px;
     text-align: justify;
@@ -354,8 +353,8 @@ section#eventos{
     background-color: #F8CE74;
     cursor: pointer;
     margin-top: 30px;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
     border-radius: 20px;
     position: relative;
     z-index: 3;
@@ -373,7 +372,7 @@ section#eventos{
 }
 section.logo img{
     cursor: pointer;
-    width: 120px;
+    width: 100px;
     margin-top: 20px;
     margin: 0 20px;
     transition: transform 0.3s ease;
@@ -393,19 +392,19 @@ section.logo img:hover{
 .bem-vindo img{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
-    width: 500px;
-    height: 500px;
-    margin-right: 700px;
+    width: 320px;
+    height: 400px;
+    margin-right: 600px;
     margin-top: 150px;
 }
 .bem-vindo .vinho-branco{
     position: absolute;
-    margin-left: 400px;
-    margin-top: -400px;
+    margin-left: 290px;
+    margin-top: -300px;
 }
 .bem-vindo p{
     font-family: "Great Vibes", cursive;
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 200px;
 }
 /* rodapé */
@@ -418,7 +417,7 @@ footer {
 }
 .local{
     padding-top: 100px;
-    padding-left: 300px;
+    padding-left: 200px;
 }
 .local h1{
      font-family: "Great Vibes", cursive;
