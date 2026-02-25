@@ -1,0 +1,446 @@
+@media  screen and (max-width: 1820px) {
+    header .menu-desktop{
+        display: none;  
+    }
+    /* sobre a empresa */
+    section#sobre{
+    background-image: url(imagem/old-paper-texture-1920-x-1080-background-t7st9er48bzs072u.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+    color: #f8ce74;
+    position: relative;
+}
+#sobre h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 80px;
+}
+#sobre h3{
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    margin-left: 90px;
+    margin-top: 60px;
+    line-height: 25px;
+}
+#sobre h3 p{
+    color: #f8ce74;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 190px;
+}
+/* Música */
+.programacao {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.programacao h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+}
+.programacao h1 span{
+    display: none;
+}
+.programacao h1 i{
+    font-size: 50px;
+}
+.programacao p{
+    width: 400px;
+    margin-left: 40px;
+    line-height:40px;
+    font-size: 20px;
+}
+.img-horario p{
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    margin-top: 550px;
+    margin-left: -120px;
+    font-weight: 400;
+}
+.img-horario p i{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.img-horario img{
+  display: none; 
+}
+/* horario de funcionamento */
+#funcionamento .titulo h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#funcionamento .titulo p{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+#funcionamento #horas h2{
+    font-size: 25px;
+}
+#horas h2 i{
+    color: #f8ce74;
+    margin-right: 50px;
+    font-size: 50px;
+}
+#horas h2 p{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* menu cardapio */
+section#cardapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+.imagem-cardapio img{
+    display: none;
+}
+.imagem-cardapio .absolute img{
+    display: none;
+}
+article h1{
+    font-size: 2em;
+    font-weight: 200;
+    margin-bottom: 40px; 
+}
+article h1 span{
+    display: none;
+}
+article p{
+    width: 450px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 60px;
+    text-align: justify;
+}
+article button{
+    margin-top: 120px;
+}
+
+/* Eventos */
+#eventos p{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+#eventos button{
+    margin-top: 80px;
+    font-size: 18px;
+} 
+
+/* logo */
+.logo{
+    height: 100px;
+}
+.logo p{
+    display: none;
+}
+section.logo img{
+    cursor: pointer;
+    width: 80px;
+    margin-top: 20px;
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+}
+/* Bem vindo */
+.bem-vindo{
+    height: 300px;
+}
+.bem-vindo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    margin-right: 200px;
+    margin-top: 120px;
+}
+.bem-vindo .vinho-branco{
+    margin-left: 160px;
+    margin-top: -200px;
+}
+.bem-vindo p{
+   display: none;
+}
+
+/* rodapé */
+footer {
+    color: white;
+}
+.local{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.local h1{
+     font-family: "Great Vibes", cursive;
+     font-size: 3em;
+     font-weight: 100;
+}
+.local p{
+    font-size: 25px;
+}
+.local p i{
+    font-size: 30px;
+}
+footer h2{
+     font-size: 3em;
+}
+
+/* menu cardapio*/
+header{
+    width: 100%;
+}
+header #logotipo h1{
+    font-size: 2em;    
+}
+/* cartaz */
+section.cartaz{
+    width: 100%; 
+}
+.cartaz h1{
+    font-size: 2.5em;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+/* nome */
+.nome h1{
+   margin-left: 10px;
+   font-size: 30px;
+   margin-top: 20px;
+   text-decoration: underline;
+}
+/* Opção do menu */
+.opcao{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+    display: flex;
+}
+.opcao .conteudo{
+    width: 130px;
+    height: 100px;
+}
+.conteudo h1{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.opcao .conteudo01{
+    width: 130px;
+    height: 100px;
+     margin: 0 30px;
+}
+.conteudo01 h1{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.opcao .conteudo02{
+    width: 130px;
+    height: 100px;
+}
+.conteudo02 h1{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/* sub menu cardapio*/
+.sub-menu nav ul {
+    margin-left: 10px;
+}
+.sub-menu li{
+    padding: 10px;
+}
+.sub-menu li a{
+    font-size: 18px; 
+}
+
+/* Cardapio */
+#sobremesa{
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 480px;
+}
+#sobremesa h1{
+    font-size: 1.5em;
+    margin: 20px 0;
+    padding-left: 20px;
+   
+}
+#principais{
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 400px;
+}
+#principais h1{
+   font-size: 1.5em;
+}
+#entradas{
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+#entradas h1{
+  font-size: 1.5em;
+}
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /
+}
+
+.item {
+  display: flex;
+  align-items: center; 
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item img {
+  width: 100px; 
+  height: 90px;
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.detalhes {
+  flex: 1; 
+}
+.preco {
+ font-size: 18px;
+}
+
+/* Vinhos */
+#vinho-tinto{  
+    margin-left: 10px;
+    width: 100%;
+}
+#vinho-tinto h1{
+   font-size: 1.5em;
+}
+#vinho-branco{
+    margin-top: 420px;
+    margin-left: 10px;
+    width: 100%;
+}
+#vinho-branco h1{
+   font-size: 1.5em;
+}
+#espumantes{
+  margin-top: 200px;
+  margin-left: 10px;
+  width: 100%;
+}
+#espumante h1{
+   font-size: 1.5em;
+}
+.item img {
+  width: 100px; 
+  height: 90px;
+}
+.preco {
+  margin-left: 10px;
+}
+
+/* DRINKS */
+#drinks-autorais{
+    margin-left: 10px;
+    width: 100%;
+}
+#drinks-autorais h1{
+    font-size: 1.5em;
+}
+#drinks-classico{
+  margin-left: 10px;
+  margin-top: 400px;
+  width: 100%;
+  
+}
+#drinks-classico h1{
+   font-size: 1.5em;
+}
+#cervejas{
+    margin-top: 180px;
+    margin-left: 10px;
+    width: 100%;
+}
+#cervejas h1{
+  font-size: 1.5em;
+}
+.item img {
+ width: 100px; 
+  height: 90px;
+}
+
+
+
+
+
+
+
+}
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 1670px){
+
+}

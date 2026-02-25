@@ -155,8 +155,7 @@ section#sobre{
     font-size: 3em;
 }
 .programacao h1 span{
-    color: #f8ce74;
-    font-size: 60px;
+    color: #F8CE74;
 }
 .programacao h1 i{
     font-size: 50px;
@@ -266,7 +265,7 @@ section#cardapio{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     width: 300px; 
-    height: 350px;
+    height: 300px;
     margin-right: 500px;
   
 }
@@ -283,8 +282,7 @@ article h1{
     font-size: 3em;
     font-weight: 200;
     margin-top: -100px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px; 
 }
 article p{
     width: 800px;
