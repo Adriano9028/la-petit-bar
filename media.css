@@ -1,7 +1,19 @@
 @media  screen and (max-width: 1820px) {
-    header .menu-desktop{
-        display: none;  
-    }
+header .menu-desktop{
+    margin-left: 20px;
+    margin-top: 50px;  
+}
+.menu-desktop li a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 15px; 
+}
+.menu-desktop li a:hover{
+    transform: scale(1.1);
+}
+.menu-desktop  i{
+  display: none;
+}
     /* sobre a empresa */
     section#sobre{
     background-image: url(imagem/old-paper-texture-1920-x-1080-background-t7st9er48bzs072u.jpg);
