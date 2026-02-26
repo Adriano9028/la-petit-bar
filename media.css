@@ -1,14 +1,25 @@
 @media  screen and (max-width: 1640px){
-  header .menu-desktop{
-  display: none;
+header .menu-desktop{
+    margin-left: 5px;
+    margin-top: 50px;
+    
+}
+.menu-desktop nav ul{
+    display: flex;
+    list-style: none;
 }
 .menu-desktop li a {
+    color: white;
     display: inline-block;
-    font-size: 14px;
-    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 12px; 
+    transition: transform 0.3s ease;
 }
 .menu-desktop li a:hover{
     transform: scale(1.1);
+    color: #f8ce74;
 }
 .menu-desktop  i{
   display: none;
@@ -43,15 +54,15 @@ section#sobre{
     font-size: 20px;
     width: 350px;
     margin-left: 90px;
-    margin-top: 60px;
-    line-height: 25px;
+    margin-bottom: 200px;
+    line-height: 30px;
 }
 #sobre h3 p{
     color: #f8ce74;
     font-family: "Great Vibes", cursive;
     font-size: 30px;
     margin-left: 100px;
-    margin-top: 250px;
+    margin-top: 80px;
 }
 /* Música */
 .programacao {
