@@ -178,6 +178,7 @@ aside .container{
     text-decoration: underline;
 }
 /* informações footer */
+
 .informacoes-footer .caixa{
     display: flex;
     justify-content: center;
