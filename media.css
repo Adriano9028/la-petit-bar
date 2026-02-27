@@ -32,9 +32,6 @@ header.rolar{
 }
 
 @media  screen and (max-width: 720px){
-  body{
- overflow-x: hidden;
-}
 /* sobre a empresa */
 section#sobre{
     display: flex;
