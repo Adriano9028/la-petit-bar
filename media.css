@@ -1,4 +1,5 @@
 @media  screen and (max-width: 1640px){
+
 header .menu-desktop{
     margin-left: 5px;
     margin-top: 50px;
@@ -31,6 +32,9 @@ header.rolar{
 }
 
 @media  screen and (max-width: 720px){
+  body{
+ overflow-x: hidden;
+}
 /* sobre a empresa */
 section#sobre{
     display: flex;
