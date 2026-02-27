@@ -188,12 +188,17 @@ aside .container{
 .caixa p {
     color: white;
     font-size: 20px;
-    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.redes-sociais{
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 .redes-sociais a i{
     color: white;
     font-size: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 .redes-sociais a i:hover{
     color: #01E675;
