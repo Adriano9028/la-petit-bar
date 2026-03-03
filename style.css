@@ -79,6 +79,9 @@ header.rolar{
     margin-top: -5px;
     height: 20vh;
 }
+header.rolar .menu-desktop a{
+    color: black;
+}
 
 
 

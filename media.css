@@ -373,12 +373,12 @@ section.cartaz{
     justify-content: center;
     width: 100%;
     height: 80vh;
-    margin-top: 800px;
+    margin-top: 750px;
    
 }
 #sobremesa h1{
     font-size: 1em;
-    margin: 50px 0;
+    margin: 30px 0;
     padding-left: 20px;
 }
 #principais{
@@ -387,11 +387,11 @@ section.cartaz{
     justify-content: center;
     width: 100%;
     height: 80vh;
-    margin-top: 800px;
+    margin-top: 750px;
 }
 #principais h1{
    font-size: 1em;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 #entradas{
     cursor: pointer;
@@ -474,7 +474,7 @@ section.cartaz{
 }
 #drinks-classico{
   margin-left: 10px;
-  margin-top: 800px;
+  margin-top: 750px;
   width: 100%;
   
 }
