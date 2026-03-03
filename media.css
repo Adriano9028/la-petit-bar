@@ -7,7 +7,7 @@ header .menu-desktop {
 }
 #header{
     margin: 0;
-    height: 20vh;
+    
 }
 /* menu-mobile */
 header .menu-mobile-icon {
@@ -97,10 +97,11 @@ section#sobre{
     position: relative;
 }
 #sobre h1{
+    margin-left: 20px;
     font-size: 1.2em;
     font-weight: 300;
     margin-top: 20px;
-    margin-left: 20px;
+   
     line-height: 80px;
 }
 #sobre h3{
@@ -108,7 +109,7 @@ section#sobre{
     text-align: justify;
     font-size: 20px;
     width: 280px;
-    margin-left: 30px;
+    margin-left: 120px;
     margin-bottom: 200px;
     line-height: 30px;
 }
@@ -125,7 +126,7 @@ section#sobre{
     margin: 0;
 }
 .programacao h1{
-    margin-left: 10px;
+    margin-left: 120px;
     margin-bottom: 30px;
     font-weight: 200;
     font-size: 2em;
@@ -139,7 +140,7 @@ section#sobre{
 }
 .programacao p{
     width: 260px;
-     margin-left: 30px;
+     margin-left: 120px;
     line-height:30px;
     font-size: 20px;
 }
@@ -165,10 +166,10 @@ section#sobre{
     height: 70vh;
 }
 #funcionamento .titulo h1{
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
     margin-top: 200px;
-    margin-left: 70px;
+    margin-left: 20px;
     line-height: 30px;
     
 }
@@ -267,8 +268,8 @@ section.logo img{
     height: 300px;
 }
 .bem-vindo img{
-    width: 160px;
-    height: 180px;
+    width: 190px;
+    height: 200px;
     margin-right: 150px;
     margin-top: 120px;
 }
@@ -304,8 +305,8 @@ footer {
     font-size: 30px;
 }
 footer h2{
-    margin-top: 40px;
-    font-size: 2em;
+    margin-top: 100px;
+    font-size: 2.5em;
 }
 
 /* menu cardapio*/
