@@ -14,7 +14,7 @@ header{
      border: 2px solid black;
      width: 50%;
      height: 120px;
-     margin: 0 auto;
+     
 }
 header #logotipo h1{
     cursor: pointer;
@@ -167,8 +167,7 @@ section.cartaz{
 .sub-menu li a{
     color: #F8CE74;
     font-size: 20px;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .sub-menu li:hover{
     background-color: #2c3e50a8;

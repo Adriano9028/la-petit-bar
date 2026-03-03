@@ -4,8 +4,14 @@
     box-sizing: border-box;
     font-family:  "Poppins", sans-serif;;
 }
-
-/* menu */
+/* menu-mobile */
+.menu-mobile-icon{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}
+/* menu-desktop*/
 header{
     width: 100%;
     position: fixed;
@@ -70,14 +76,11 @@ header .menu-desktop{
 /* Scroll menu Js */
 header.rolar{
     background-color: rgba(211, 211, 211, 0.753);
-    padding: 20px 0;
+    margin-top: -5px;
+    height: 20vh;
 }
-header.rolar .menu-desktop nav ul li a{
-    color: black;
-}
-header.rolar .menu-desktop nav ul li a:hover{
-    color: #4d4e23;
-}
+
+
 
 /* sobre a empresa */
 
