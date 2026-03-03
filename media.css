@@ -12,7 +12,8 @@ header .menu-desktop {
 /* menu-mobile */
 header .menu-mobile-icon {
     display: block;
-    margin-left: 200px;
+    margin-top: 20px;
+    margin-left: 300px;
 }
 .menu-mobile-icon{
     position: relative;
@@ -97,7 +98,7 @@ section#sobre{
     position: relative;
 }
 #sobre h1{
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 1.2em;
     font-weight: 300;
     margin-top: 20px;
@@ -126,8 +127,8 @@ section#sobre{
     margin: 0;
 }
 .programacao h1{
-    margin-left: 120px;
-    margin-bottom: 30px;
+   margin-left: 120px;
+   margin-top: 30px;
     font-weight: 200;
     font-size: 2em;
     
@@ -140,7 +141,7 @@ section#sobre{
 }
 .programacao p{
     width: 260px;
-     margin-left: 120px;
+    margin-left: 120px;
     line-height:30px;
     font-size: 20px;
 }
@@ -167,8 +168,8 @@ section#sobre{
 }
 #funcionamento .titulo h1{
     font-size: 1.8em;
+    margin-top: 120px;
     font-weight: bold;
-    margin-top: 200px;
     margin-left: 20px;
     line-height: 30px;
     
@@ -177,10 +178,10 @@ section#sobre{
 #funcionamento .titulo p{
     font-family: "Great Vibes", cursive;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 50px; 
+    margin: 20px 0;
     line-height: 80px;
 }
 #funcionamento #horas h2{
@@ -251,21 +252,11 @@ article button{
 
 /* logo */
 .logo{
-    height: 90px;
-}
-.logo p{
-    display: none;
-}
-section.logo img{
-    cursor: pointer;
-    width: 60px;
-    margin-top: 30px;
-    margin: 0 20px;
-    transition: transform 0.3s ease;
+   display: none;
 }
 /* Bem vindo */
 .bem-vindo{
-    height: 300px;
+    height: 400px;
 }
 .bem-vindo img{
     width: 190px;
@@ -488,6 +479,10 @@ section.cartaz{
 }
 
 /* DRINKS */
+.cartaz p{
+    width: 300px;
+    margin-left: 50px;
+}
 #drinks-autorais{
     margin-left: 10px;
     width: 100%;
