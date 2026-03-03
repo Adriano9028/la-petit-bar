@@ -13,11 +13,11 @@ header .menu-desktop {
 header .menu-mobile-icon {
     display: block;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .menu-mobile-icon{
     position: relative;
-    z-index: 99999999;
+    z-index: 999999999999;
 }
 .menu-mobile-icon button{
     cursor: pointer;
