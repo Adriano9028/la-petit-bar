@@ -111,14 +111,14 @@ section#sobre{
     text-align: justify;
     font-size: 20px;
     width: 280px;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-bottom: 200px;
     line-height: 20px;
 }
 #sobre h3 p{
     color: #f8ce74;
     font-family: "Great Vibes", cursive;
-    margin-left: 30px;
+    margin-left: 80px;
     font-size: 30px;
     margin-top: 50px;
 }
