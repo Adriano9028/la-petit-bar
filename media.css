@@ -13,7 +13,7 @@ header .menu-desktop {
 header .menu-mobile-icon {
     display: block;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 .menu-mobile-icon{
     position: relative;
@@ -88,6 +88,9 @@ header.rolar{
 }
 
 @media  screen and (max-width: 730px){
+ body {
+    overflow-x: hidden;
+}
 /* sobre a empresa */
 section#sobre{
     display: flex;
@@ -100,9 +103,7 @@ section#sobre{
 #sobre h1{
     margin-left: 10px;
     font-size: 1.2em;
-    font-weight: 300;
     margin-top: 20px;
-   
     line-height: 80px;
 }
 #sobre h3{
@@ -110,15 +111,15 @@ section#sobre{
     text-align: justify;
     font-size: 20px;
     width: 280px;
-    margin-left: 120px;
+    margin-left: 90px;
     margin-bottom: 200px;
-    line-height: 30px;
+    line-height: 20px;
 }
 #sobre h3 p{
     color: #f8ce74;
     font-family: "Great Vibes", cursive;
+    margin-left: 30px;
     font-size: 30px;
-    margin-left: 60px;
     margin-top: 50px;
 }
 /* Música */
@@ -127,7 +128,7 @@ section#sobre{
     margin: 0;
 }
 .programacao h1{
-   margin-left: 120px;
+   margin-left: 90px;
    margin-top: 30px;
     font-weight: 200;
     font-size: 2em;
@@ -141,7 +142,7 @@ section#sobre{
 }
 .programacao p{
     width: 260px;
-    margin-left: 120px;
+    margin-left: 100px;
     line-height:30px;
     font-size: 20px;
 }
@@ -168,9 +169,9 @@ section#sobre{
 }
 #funcionamento .titulo h1{
     font-size: 1.8em;
-    margin-top: 120px;
+    margin-top: 150px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 60px;
     line-height: 30px;
     
 }
